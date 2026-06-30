@@ -1,0 +1,27 @@
+
+export const sampleMedicalCaseSheet = {
+    name: "John Doe",
+    address: "123 Healthcare Ave, New York, NY 10001, USA",
+    dob: "1985-05-20",
+    contactInformation: "john.doe@example.com",
+    phoneNumber: "+1 234 567 890",
+    height: "180 cm",
+    weight: "85 kg",
+    sex: "Male",
+    heartRate: "72",
+    spo2: "98",
+    bloodPressure: "120/80",
+    respiratoryRate: "16",
+    primaryDiagnosis: "Right Hip Osteoarthritis",
+    secondaryDiagnosis: "Mild Hypertension",
+    chiefComplaint: "Severe pain in the right hip joint, restricted movement, difficulty walking long distances.",
+    historyOfPresentingIllness: "Pain started 6 months ago, gradually worsening. Difficulty climbing stairs and sleeping on the right side.",
+    physicalExamination: "Restricted range of motion in right hip. No swelling or redness. Normal gait with slight limp.",
+    presentOngoingTreatment: "Over-the-counter pain relievers, physical therapy exercises.",
+    previousMedicalHistory: "Appendectomy in 2015",
+    surgeries: "Appendectomy (2015)",
+    conditions: "Hypertension (managed by diet)",
+    allergies: "Penicillin",
+    reaction: "Skin rash",
+    progressNotes: "2024-02-15 | Patient complains of worsening hip pain. | Dr. Smith"
+};

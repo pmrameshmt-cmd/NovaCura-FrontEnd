@@ -1,0 +1,58 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A caring doctor discussing results with a patient on a tablet in a modern clinic.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MjU4MjI4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor patient"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Portrait of a satisfied client.",
+      "imageUrl": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI0MjMyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Portrait of another satisfied client.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI0MjMyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Portrait of a third satisfied client.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI0MjMyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "about-us",
+      "description": "A modern, sophisticated meeting room where important health decisions are made.",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBtZWV0aW5nfGVufDB8fHx8MTc2MjQyNzIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional meeting"
+    },
+    {
+      "id": "why-choose-us",
+      "description": "A doctor and patient having a reassuring and professional conversation.",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkb2N0b3IlMjBwYXRpZW50fGVufDB8fHx8MTc2MjQyNzI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor patient"
+    },
+    {
+      "id": "video-thumb-1",
+      "description": "Thumbnail for a video about a hospital's advanced surgical suite.",
+      "imageUrl": "https://images.unsplash.com/photo-1606685622133-ed6fbaaf445c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3NwaXRhbCUyMHN1cmdlcnl8ZW58MHx8fHwxNzYyNTMyMDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital surgery"
+    },
+    {
+      "id": "video-thumb-2",
+      "description": "Thumbnail for a video about a hospital's welcoming patient rooms.",
+      "imageUrl": "https://images.unsplash.com/photo-1710074213374-e68503a1b795?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3NwaXRhbCUyMHJvb218ZW58MHx8fHwxNzYyNDcwODgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital room"
+    },
+    {
+      "id": "video-thumb-3",
+      "description": "Thumbnail for a video about a hospital's modern lobby and reception.",
+      "imageUrl": "https://images.unsplash.com/photo-1579356687668-cbdd5a551c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMHJlY2VwdGlvbnxlbnwwfHx8fDE3NjI0NTM3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hospital reception"
+    }
+  ]
+}
