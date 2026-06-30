@@ -3,8 +3,17 @@
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Stethoscope, Phone, Mail } from "lucide-react";
+import { Suspense } from "react";
 
 export default function Footer() {
+  return (
+    <Suspense fallback={null}>
+      <FooterContent />
+    </Suspense>
+  );
+}
+
+function FooterContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const isHome = pathname === "/";
