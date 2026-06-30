@@ -36,7 +36,7 @@ const leaders: Leader[] = [
     name: "Dr. Vijaybabu Kaliappan",
     title: "COO",
     bio: `Dr. Vijaybabu Kaliappan MBBS MD, COO, Professor of Medicine — 21 years of medical academics, presently Dean of Research in Zydus Foundation. Developed drugs for covid, anaemia, now working on sickle cell disease eradication at PM Narendra Modi's Visionary programme. Developed cough sound based diagnostics for various viral lung diseases including covid for Australian corporate.`,
-    image: "/images/Vijayleader.jpeg",
+    image: "/images/Vijay.jpeg",
     
   },
 ];
