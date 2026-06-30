@@ -50,7 +50,7 @@ import Footer from "@/components/landing/footer";
 // --- Asset Images ---
 import Banner from "../../../assets/images/Turkey/Banner.png";
 import Container1 from "../../../assets/images/Turkey/Container1.png";
-import centerofExcellence from "../../../assets/images/Turkey/center of Excellence.png";
+import CentersofExcellence from "../../../assets/images/Turkey/Centers of Excellence.png";
 import MedicalExcellence from "../../../assets/images/Turkey/Medical Excellence.png";
 import container2 from "../../../assets/images/Turkey/Container 2.png";
 import DentalTreatment from "../../../assets/images/Turkey/DentalTreatment.png";
@@ -580,11 +580,11 @@ export default function MedicalParkPage() {
                 <p>
                   Medical Park Hospitals Group is the largest healthcare group
                   in Turkey, operating 25 hospitals with over 5,200 beds and 200
-                  operating theaters.
+                  operating theatres.
                 </p>
                 <p>
                   Renowned for its "Health for Everybody" philosophy, Medical
-                  Park combines academic excellence with patient-oriented
+                  Park combines academic excellence with Patient-centred
                   service, attracting patients from across the globe.
                 </p>
               </div>
@@ -643,8 +643,8 @@ export default function MedicalParkPage() {
             {/* Left Side Feature Card (centres of Excellence) */}
             <div className="lg:col-span-8 relative overflow-hidden rounded-[24px] min-h-[440px] flex flex-col justify-end p-8 sm:p-10 group shadow-md">
               <Image
-                src={centresoExcellence}
-                alt="centres of Excellence"
+                src={CentersofExcellence}
+                alt="Centers of Excellence"
                 fill
                 priority
                 className="object-cover object-center z-0 transition-transform duration-500 group-hover:scale-[1.02]"
@@ -820,7 +820,7 @@ export default function MedicalParkPage() {
                     <CountUp end={200} duration={900} suffix="+" />
                   </div>
                   <div className="text-[11px] font-semibold uppercase tracking-wider text-white/60 mt-2">
-                    Operating Theaters
+                    Operating theatres
                   </div>
                 </div>
                 <div className="bg-white/10 rounded-2xl p-5">

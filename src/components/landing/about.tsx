@@ -23,7 +23,7 @@ export default function About() {
                             Pioneering a New Era of Personalised Healthcare
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-foreground/80">
-                            NOVACURA GLOBAL was founded on the principle that healthcare should be as unique as the individual. We believe in a proactive, Personalised, and privileged approach to wellness, providing our discerning clientele with frictionless access to the very best medical care the world has to offer.
+                            NOVACURA GLOBAL was founded on the principle that healthcare should be as unique as the individual. We believe in a proactive, personalised, and privileged approach to wellness, providing our discerning clientele with frictionless access to the very best medical care the world has to offer.
                         </p>
                         <p className="mt-4 text-lg leading-8 text-foreground/80">
                             Our mission is to remove every barrier between you and optimal health, handling every complexity with sophistication and unwavering attention to detail, so you can focus solely on your well-being.
