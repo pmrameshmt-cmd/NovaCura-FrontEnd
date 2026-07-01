@@ -100,9 +100,11 @@ export default function Contact() {
                   <br />
                   Unity Place,
                   <br />
-                  200 Grafton Gate, Milton Keynes, UK
+                  200 Grafton Gate, Milton Keynes,
                   <br />
                   MK9 1UP
+                  <br />
+	                United Kingdom   
                 </p>
               </div>
             </div>

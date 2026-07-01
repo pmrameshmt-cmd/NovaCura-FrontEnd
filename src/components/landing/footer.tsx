@@ -122,7 +122,7 @@ function FooterContent() {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  {isAyurvedicHospitalPage ? null : isDetoxHospitalPage ? (
+                  {isAyurvedicHospitalPage ? (
                     <div className="flex gap-2">
                       <Phone className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                       <a
@@ -132,7 +132,7 @@ function FooterContent() {
                         +44 7779 729669
                       </a>
                     </div>
-                  ) : isHospitalPage ? (
+                  ) : isDetoxHospitalPage ? (
                     <div className="flex gap-2">
                       <Phone className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                       <div className="flex flex-col">
@@ -208,8 +208,8 @@ function FooterContent() {
                           <p>Unity Place</p>
                           <p>200 Grafton Gate</p>
                           <p>Milton Keynes</p>
-                          <p>UK</p>
                           <p>MK9 1UP</p>
+                          <p>United Kingdom</p>
                         </div>
                       )}
                     </>

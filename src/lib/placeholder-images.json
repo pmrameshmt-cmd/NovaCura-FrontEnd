@@ -50,9 +50,9 @@
     },
     {
       "id": "video-thumb-3",
-      "description": "Thumbnail for a video about a hospital's modern lobby and reception.",
-      "imageUrl": "https://images.unsplash.com/photo-1579356687668-cbdd5a551c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3NwaXRhbCUyMHJlY2VwdGlvbnxlbnwwfHx8fDE3NjI0NTM3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hospital reception"
+      "description": "Thumbnail for a video about travel and accommodation services.",
+       "imageUrl": "/images/Travel%20%26%20Accommodation.avif",
+	       "imageHint": "travel accommodations"
     }
   ]
 }

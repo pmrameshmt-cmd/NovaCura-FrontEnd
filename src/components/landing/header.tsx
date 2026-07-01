@@ -210,9 +210,10 @@ export default function Header() {
           backdrop-brightness-[1.12]
           transition-all duration-[300ms] ease-in-out
           bg-[linear-gradient(to_right,_#ffffff_0%,_#ffffff_25%,_#ddd6f8_35%,_#bfaced_45%,_#a382e1_55%,_#8a57d1_65%,_#7940bf_75%,_#6827ae_82%,_#57019c_88%,_#4a0187_93%,_#3d0173_96%,_#310060_98%,_#25004d_100%)]
-          ${isScrolled 
-            ? "shadow-[0_10px_30px_-10px_rgba(74,0,128,0.3)] border-b border-b-[rgba(180,120,255,0.60)]" 
-            : "shadow-none border-b border-b-[rgba(180,120,255,0.30)]"
+          ${
+            isScrolled
+              ? "shadow-[0_10px_30px_-10px_rgba(74,0,128,0.3)] border-b border-b-[rgba(180,120,255,0.60)]"
+              : "shadow-none border-b border-b-[rgba(180,120,255,0.30)]"
           }
         `}
       >
@@ -220,12 +221,13 @@ export default function Header() {
           aria-hidden="true"
           className="absolute inset-0 bg-gradient-to-r from-white/10 via-transparent via-[rgba(160,80,255,0.08)] to-white/10 pointer-events-none z-0"
         />
-
-        <div className="w-full pl-2 pr-7 lg:pl-4 lg:pr-10 relative z-[2]">
-          <div className={`flex items-center justify-between w-full transition-all duration-[300ms] ${isScrolled ? "h-16" : "h-20"}`}>
+        <div className="w-full pl-0 pr-3 sm:pl-4 sm:pr-10 lg:pl-4 lg:pr-10 relative z-[2]">
+          <div
+            className={`flex items-center justify-between w-full transition-all duration-[300ms] ${isScrolled ? "h-16" : "h-20"}`}
+          >
             <Link
               href="/"
-              className="flex items-center gap-3 select-none -ml-10 lg:-ml-11"
+              className="flex items-center gap-3 select-none ml-0 lg:-ml-11"
             >
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
@@ -234,15 +236,15 @@ export default function Header() {
               />
             </Link>
 
-            <div className="flex items-center gap-2 sm:gap-3">
+            <div className="flex items-center gap-1 sm:gap-3">
               <Link href="/sign-in">
-                <button className="text-sm font-semibold px-5 py-2 rounded-full transition-all duration-200 text-black bg-white border border-white/20 tracking-wide hover:bg-white/20 hover:text-white">
+                <button className="text-xs sm:text-sm font-semibold px-3 sm:px-5 py-1.5 sm:py-2 rounded-full transition-all duration-200 text-black bg-white border border-white/20 tracking-wide sm:tracking-wide hover:bg-white/20 hover:text-white whitespace-nowrap">
                   Sign In
                 </button>
               </Link>
 
               <Link href="/sign-up">
-                <button className="rounded-full px-5 py-2 text-sm font-semibold transition-all duration-200 text-black bg-yellow-300 ">
+                <button className="text-xs sm:text-sm rounded-full px-3 sm:px-5 py-1.5 sm:py-2 font-semibold transition-all duration-200 text-black bg-yellow-300 whitespace-nowrap">
                   Sign Up
                 </button>
               </Link>

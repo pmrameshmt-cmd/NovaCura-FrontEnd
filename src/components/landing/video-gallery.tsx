@@ -13,7 +13,7 @@ const videos = [
   },
   {
     id: "video-thumb-3",
-    title: "A Warm Welcome",
+    title: "Travel & Accommodation",
   },
 ];
 
