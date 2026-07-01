@@ -42,7 +42,7 @@ function FooterContent() {
           <div className="flex flex-col items-start md:col-span-2">
             <Link
               href="/"
-              className="flex items-center gap-3 select-none -ml-10 lg:-ml-11"
+              className="flex items-center gap-3 select-none -ml-11 sm:ml-20"
             >
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
@@ -56,7 +56,7 @@ function FooterContent() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 md:col-span-2">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:col-span-2">
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-primary">
                 Navigate

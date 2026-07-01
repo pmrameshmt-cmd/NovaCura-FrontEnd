@@ -10,7 +10,7 @@ export default function LeadershipPage() {
     return (
         <div className="flex flex-col min-h-screen bg-background font-open-sans">
             <Header />
-            <main className="">
+            <main className="pt-10 md:pt-15">
                 {/* Hero Section */}
                 <section className="bg-primary text-primary-foreground py-12">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col text-left">

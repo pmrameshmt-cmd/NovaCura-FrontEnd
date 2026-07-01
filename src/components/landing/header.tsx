@@ -130,7 +130,7 @@ export default function Header() {
     <>
       {/* Spacer div so fixed header doesn't cover page content.
           Height matches the header's largest state (h-20 = 5rem). */}
-      <div className="h-20" aria-hidden="true" />
+      <div className="h-15 sm:h-15" aria-hidden="true" />
 
       <div
         className={`fixed inset-y-0 right-0 z-[9999] w-full max-w-[24rem] h-screen transition-all duration-300 ease-out p-4 rounded-l-[2rem] bg-purple-900 border border-white/20 shadow-[0_12px_64px_-8px_rgba(74,0,128,0.80)] overflow-hidden ${
@@ -209,12 +209,7 @@ export default function Header() {
           backdrop-saturate-[220%]
           backdrop-brightness-[1.12]
           transition-all duration-[300ms] ease-in-out
-          bg-[linear-gradient(to_right,_#ffffff_0%,_#ffffff_25%,_#ddd6f8_35%,_#bfaced_45%,_#a382e1_55%,_#8a57d1_65%,_#7940bf_75%,_#6827ae_82%,_#57019c_88%,_#4a0187_93%,_#3d0173_96%,_#310060_98%,_#25004d_100%)]
-          ${
-            isScrolled
-              ? "shadow-[0_10px_30px_-10px_rgba(74,0,128,0.3)] border-b border-b-[rgba(180,120,255,0.60)]"
-              : "shadow-none border-b border-b-[rgba(180,120,255,0.30)]"
-          }
+          bg-white md:bg-[linear-gradient(to_right,_#ffffff_0%,_#ffffff_25%,_#ddd6f8_35%,_#bfaced_45%,_#a382e1_55%,_#8a57d1_65%,_#7940bf_75%,_#6827ae_82%,_#57019c_88%,_#4a0187_93%,_#3d0173_96%,_#310060_98%,_#25004d_100%)]
         `}
       >
         <div
@@ -223,7 +218,7 @@ export default function Header() {
         />
         <div className="w-full pl-0 pr-3 sm:pl-4 sm:pr-10 lg:pl-4 lg:pr-10 relative z-[2]">
           <div
-            className={`flex items-center justify-between w-full transition-all duration-[300ms] ${isScrolled ? "h-16" : "h-20"}`}
+            className="flex items-center justify-between w-full transition-all duration-[300ms]"
           >
             <Link
               href="/"
@@ -232,29 +227,29 @@ export default function Header() {
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
                 alt="NovaCura Global Logo"
-                className={`object-contain transition-all duration-[300ms] ${isScrolled ? "h-16 w-40" : "h-20 w-48"}`}
+                className="h-16 w-40 object-contain transition-all duration-[300ms]"
               />
             </Link>
 
             <div className="flex items-center gap-1 sm:gap-3">
               <Link href="/sign-in">
-                <button className="text-xs sm:text-sm font-semibold px-3 sm:px-5 py-1.5 sm:py-2 rounded-full transition-all duration-200 text-black bg-white border border-white/20 tracking-wide sm:tracking-wide hover:bg-white/20 hover:text-white whitespace-nowrap">
+                <button className="text-xs sm:text-sm font-semibold px-3 sm:px-5 py-1.5 sm:py-2 rounded-full transition-all duration-200 text-black bg-white border border-slate-200 shadow-sm tracking-wide sm:tracking-wide hover:bg-slate-50 whitespace-nowrap md:text-white md:bg-white/10 md:border-white/20 md:hover:bg-white/20 md:hover:text-white">
                   Sign In
                 </button>
               </Link>
 
               <Link href="/sign-up">
-                <button className="text-xs sm:text-sm rounded-full px-3 sm:px-5 py-1.5 sm:py-2 font-semibold transition-all duration-200 text-black bg-yellow-300 whitespace-nowrap">
+                <button className="text-xs sm:text-sm rounded-full px-3 sm:px-5 py-1.5 sm:py-2 font-semibold transition-all duration-200 text-black bg-yellow-300 whitespace-nowrap md:text-black">
                   Sign Up
                 </button>
               </Link>
 
               <button
                 onClick={() => setOpen(true)}
-                className="inline-flex items-center justify-center rounded-xl transition-all duration-200 p-[9px] bg-white/10 border border-white/20 ml-1 hover:bg-white/20"
+                className="ml-1 inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white p-[9px] shadow-sm transition-all duration-200 hover:bg-slate-50 md:border-white/20 md:bg-white/10 md:hover:bg-white/20"
                 aria-label="Open Menu"
               >
-                <Menu className="h-5 w-5 text-white" />
+                <Menu className="h-5 w-5 text-slate-700 md:text-white" />
               </button>
             </div>
           </div>
