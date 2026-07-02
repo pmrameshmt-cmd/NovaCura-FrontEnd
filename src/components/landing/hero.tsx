@@ -88,7 +88,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/10" />
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/25" />
 
-      <div className="relative z-10  mx-auto px-4 lg:px-8">
+      <div className="relative z-10 mx-auto px-4 lg:px-8">
         {/* Main Hero */}
         <div className="flex min-h-[72vh] items-center ">
           <div className="max-w-3xl">
@@ -130,25 +130,9 @@ export default function Hero() {
               programs designed to restore balance and vitality.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="mt-10 flex flex-col gap-4 sm:flex-row"
-            >
-              {/* <Button size="lg" className="h-14 px-8 text-base font-semibold">
-                Explore Our Services
-              </Button> */}
-
-              {/* <Button
-                size="lg"
-                variant="outline"
-                className="h-14 border-white/30 bg-white/10 px-8 text-base text-white backdrop-blur-sm hover:bg-white/20"
-              >
-                <Play className="mr-2 h-4 w-4" />
-                Watch Our Video
-              </Button> */}
-            </motion.div>
+           
+             
+           
           </div>
         </div>
 

@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background">
       <Header />
-      <main className="flex-1 pt-12 md:pt-0">
+      <main className="flex-1 py-16 md:py-0">
         <Hero />
         <Services />
         <AyurvedicNew />
