@@ -90,7 +90,7 @@ export default function Hero() {
 
       <div className="relative z-10 mx-auto px-4 lg:px-8">
         {/* Main Hero */}
-        <div className="flex min-h-[72vh] items-center ">
+        <div className="flex min-h-[72vh] items-center mt-4 ">
           <div className="max-w-3xl">
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
