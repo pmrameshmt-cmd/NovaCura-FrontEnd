@@ -53,7 +53,7 @@ export default function VideoGallery() {
                     </div>
                   </div>
                   <div className="p-4 bg-card">
-                    <h3 className="font-headline text-xl font-bold text-primary">
+                    <h3 className="font-headline text-xl font-bold text-primary text-center">
                       {video.title}
                     </h3>
                   </div>

@@ -9,6 +9,7 @@ interface Leader {
   title: string;
   bio: string;
   image: string;
+  mobileImage: string;
 }
 
 const leaders: Leader[] = [
@@ -17,37 +18,39 @@ const leaders: Leader[] = [
     title: "Co Founder",
     bio: "A prominent Indian entrepreneur, investor, and philanthropist with over three decades of experience in business leadership and venture development \n An alumnus of both IIM Ahmedabad and the National Law School of India University, Bangalore, he has utilized his extensive academic background to serve in various leadership and board roles across diverse enterprises, consistently supporting growth-oriented and sustainability-driven ventures \n Beyond his corporate pursuits, he is a dedicated advocate for animal welfare and ethical living, actively championing causes rooted in compassion and environmental responsibility \n Additionally, as a trustee of the Chennai Photo Biennale Foundation, he plays a pivotal role in advancing contemporary art and visual culture in India, seamlessly blending his business acumen with a deep commitment to social and cultural progress.",
     image: "/images/Sethu.png",
+    mobileImage: "/images/Sethu-mb.png",
   },
   {
     name: "Ramesh Mahalingam",
     title: "Founder & CTO",
     bio: `Ramesh Mahalingam is the Co-Founder and Chief Technology Officer of Nova Cura Global, where he leads the company's product vision, technology strategy, and engineering excellence \n A lifelong technologist and innovator, Ramesh has been the driving force behind building a platform trusted and used by millions of users across the globe.Ramesh has cultivated a high-performing team of creative problem-solvers dedicated to tackling some of the most complex challenges in the medical tourism industry.As a Co-Founder, Ramesh has played a pivotal role in shaping Nova Cura Global's growth trajectory, including spearheading the expansion of innovative service offerings such as Ayurvedic, Wellness and Detox programmes \n Alongside co-founders Sethu and Hardy, he has been instrumental in transforming a bold vision into a globally recognised platform that leverages technology to improve access to medical tourism and enhance patient outcomes \n Ramesh is currently focused on accelerating Nova Cura Global's core business growth and expansion across the United Kingdom, bringing world-class healthcare experiences within reach for more people than ever before.`,
     image: "/images/Rameshleader.jpeg",
+    mobileImage: "/images/Rameshleader-mb.jpeg",
   },
+
   {
     name: "Hardy Gakhal",
     title: "Co-Founder",
     bio: `Hardy Gakhal, Co-Founder, is a distinguished professional in the plastics industry, recognised for his innovative contributions to developing NIR-detectable products, enhancing sustainability and efficiency. As the owner of Varna Investments, he also brings a wealth of expertise in global financing, making significant impacts across both fields. His multifaceted experience positions him as a leading figure in driving industry advancements and sustainable solutions.`,
     image: "/images/Hardyleader.jpeg",
+    mobileImage: "/images/Hardyleader-mb.jpeg",
   },
   {
     name: "Dr. Vijaybabu Kaliappan",
     title: "COO",
     bio: `Dr. Vijaybabu Kaliappan MBBS MD, COO, Professor of Medicine — 21 years of medical academics, presently Dean of Research in Zydus Foundation. Developed drugs for covid, anaemia, now working on sickle cell disease eradication at PM Narendra Modi's Visionary programme. Developed cough sound based diagnostics for various viral lung diseases including covid for Australian corporate.`,
     image: "/images/Vijayleader.jpeg",
+    mobileImage: "/images/Vijayleader-mb.jpeg",
   },
 ];
 
 const LeadersPage = () => {
-  // Desktop hover/click state (unchanged behaviour)
   const [activeIdx, setActiveIdx] = useState(0);
-
-  // Mobile accordion state — independent, starts fully collapsed
   const [mobileActiveIdx, setMobileActiveIdx] = useState<number | null>(null);
 
   return (
-    <div className="text-white py-16 overflow-hidden">
-      {/* ===================== DESKTOP / TABLET VIEW (unchanged) ===================== */}
+    <div className="text-white py-8 overflow-hidden">
+      {/* ===================== DESKTOP  VIEW ===================== */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -191,10 +194,7 @@ const LeadersPage = () => {
               key={index}
               layout
               className="relative rounded-2xl overflow-hidden shadow-md bg-black/20"
-             
             >
-             
-
               {/* Tappable image header — always visible */}
               <button
                 type="button"
@@ -211,7 +211,7 @@ const LeadersPage = () => {
                 <div
                   className="absolute inset-0 bg-cover bg-center"
                   style={{
-                    backgroundImage: `url(${leader.image})`,
+                    backgroundImage: `url(${leader.mobileImage || leader.image})`,
                     filter: isActive
                       ? "brightness(1.1) saturate(1.4)"
                       : "brightness(0.6) saturate(0.9)",
