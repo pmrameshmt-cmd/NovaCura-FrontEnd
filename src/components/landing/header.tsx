@@ -30,7 +30,7 @@ function MobileAccordion({
     <div className="w-full">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="group w-full flex items-center justify-between px-5 py-3 mt-3 text-left text-[16px] rounded-xl font-semibold text-white bg-transparent outline-none transition-all duration-200 shadow-xl border border-white/20 hover:bg-white hover:text-purple-900 select-none"
+        className="group w-full flex items-center justify-between px-4 py-3 mt-3 text-left text-[16px] rounded-xl font-semibold text-white bg-transparent outline-none transition-all duration-200 shadow-xl border border-white/20 hover:bg-white hover:text-purple-900 select-none"
       >
         <div className="flex items-center gap-3">
           <div className="bg-white/10 group-hover:bg-purple-100 rounded-full p-[6px] border border-white/20 group-hover:border-purple-200 shrink-0 flex items-center justify-center transition-colors duration-200">
@@ -163,7 +163,7 @@ export default function Header() {
                             key={subItem.href}
                             href={subItem.href}
                             onClick={() => setOpen(false)}
-                            className="block py-1 pl-6 text-[15px] font-medium rounded-xl text-white border-l-2 border-l-transparent transition-all duration-200 hover:bg-white hover:text-purple-900 hover:pl-8"
+                            className="block py-1.5 pl-6 text-[15px] font-medium rounded-xl text-white border-l-2 border-l-transparent transition-all duration-200 hover:bg-white hover:text-purple-900 hover:pl-8"
                           >
                             {subItem.label}
                           </Link>
@@ -172,7 +172,7 @@ export default function Header() {
                     ) : (
                       <button
                         onClick={(e) => handleNavigation(e, link.href)}
-                        className="group w-full flex items-center gap-3 px-5  text-left text-[16px] rounded-xl mt-3 shadow-xl border border-white/20 font-semibold text-white bg-transparent outline-none transition-all duration-200 hover:bg-white hover:text-purple-900"
+                        className="group w-full flex items-center gap-3 px-4 py-3 text-left text-[16px] rounded-xl mt-3 shadow-xl border border-white/20 font-semibold text-white bg-transparent outline-none transition-all duration-200 hover:bg-white hover:text-purple-900"
                       >
                         <div className="bg-white/10 group-hover:bg-purple-100 rounded-full p-[6px] border border-white/20 group-hover:border-purple-200 shrink-0 flex items-center justify-center transition-colors duration-200">
                           <LinkIcon className="h-4 w-4 text-white group-hover:text-purple-900 transition-colors duration-200" />
