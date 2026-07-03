@@ -98,9 +98,11 @@ export default function Contact() {
                     
                   NOVA CURA GLOBAL
                   <br />
-                  Unity Place,
+                  Unity Place
                   <br />
-                  200 Grafton Gate, Milton Keynes,
+                  200 Grafton Gate 
+                  <br />
+                  Milton Keynes
                   <br />
                   MK9 1UP
                   <br />

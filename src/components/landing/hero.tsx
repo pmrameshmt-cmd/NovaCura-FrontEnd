@@ -50,7 +50,6 @@ export default function Hero() {
     {
       icon: Shield,
       label: "Trusted Healthcare Partners",
-      
     },
     {
       icon: Globe,
@@ -85,8 +84,8 @@ export default function Hero() {
       )}
 
       {/* Overlays */}
-      <div className="absolute inset-0 bg-black/10" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/25" />
+      {/* <div className="absolute inset-0 bg-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/25" /> */}
 
       <div className="relative z-10 mx-auto px-4 lg:px-8">
         {/* Main Hero */}
@@ -111,11 +110,14 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
               className="flex flex-wrap items-center gap-4 text-lg font-medium md:text-2xl"
             >
+              <span className="text-accent">•</span>
+
+              <span>Medical Excellence</span>
+              <span className="text-accent">•</span>
+
               <span>Ayurvedic Care</span>
               <span className="text-accent">•</span>
               <span>Detox Programs</span>
-              <span className="text-accent">•</span>
-              <span>Medical Excellence</span>
             </motion.div>
 
             <motion.p
@@ -129,10 +131,6 @@ export default function Hero() {
               detoxification, preventive healthcare, and Personalised treatment
               programs designed to restore balance and vitality.
             </motion.p>
-
-           
-             
-           
           </div>
         </div>
 

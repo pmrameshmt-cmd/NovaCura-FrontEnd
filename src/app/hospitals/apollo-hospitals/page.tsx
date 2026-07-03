@@ -66,7 +66,7 @@ export default function ApolloHospitalsPage() {
             </CardHeader>
             <CardContent>
               <p className="text-foreground/70">
-                Apollo Hospitals is a pioneer in integrated healthcare delivery in India. Since its inception, the group has touched the lives of over 150 million patients from 140 countries. We are driven by a single goal: to provide the best standards of care to every patient.
+                Apollo Hospitals is a pioneer in integrated healthcare delivery in India, Turkey and Bulgaria. Since its inception, the group has touched the lives of over 150 million patients from 140 countries. We are driven by a single goal: to provide the best standards of care to every patient.
               </p>
               <p className="text-foreground/70 mt-4">
                 With a legacy of innovation and excellence, Apollo Hospitals continues to lead the way in advanced medical treatments and compassionate patient care, setting benchmarks in the healthcare industry.
@@ -99,7 +99,7 @@ export default function ApolloHospitalsPage() {
                 <h3 className="text-2xl font-bold font-headline text-primary">Apollo Pharmacy</h3>
               </div>
               <p className="text-foreground/70 mb-4">
-                Apollo Pharmacy is the largest retail pharmacy chain in India with more than 5,000 stores in over 21 states. It was started in 1987.
+                Apollo Pharmacy is the largest retail pharmacy chain in India, Turkey and Bulgaria with more than 5,000 stores in over 21 states. It was started in 1987.
               </p>
               <Image
                 src={apolloImage4}

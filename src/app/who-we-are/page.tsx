@@ -13,8 +13,8 @@ export default function WhoWeArePage() {
                         <h1 className="text-4xl md:text-5xl font-bold font-headline mb-6">
                             Who We Are
                         </h1>
-                        <p className="text-lg md:text-xl max-w-3xl leading-relaxed opacity-90">
-                            NOVACURA GLOBAL is a medical tourism and healthcare concierge platform dedicated to helping international patients access world-class treatment in India. We combine medical expertise, travel coordination, and Personalised support to ensure every patient experiences a stress-free healing journey.
+                        <p className="text-lg md:text-xl max-w-4xl leading-relaxed opacity-90">
+                            NOVACURA GLOBAL is a medical tourism and healthcare concierge platform dedicated to helping international patients access world-class treatment in India, Turkey and Bulgaria. We combine medical expertise, travel coordination, and Personalised support to ensure every patient experiences a stress-free healing journey.
                         </p>
                     </div>
                 </section>
@@ -22,7 +22,7 @@ export default function WhoWeArePage() {
                 <section className="py-16 bg-background">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-                            We believe that quality healthcare should know no borders. Our team works tirelessly to bridge the gap between patients and the best medical care India has to offer.
+                            We believe quality healthcare should have no borders. Our team works hard to connect patients with the best medical care available in India, Turkey and Bulgaria.
                         </p>
                     </div>
                 </section>

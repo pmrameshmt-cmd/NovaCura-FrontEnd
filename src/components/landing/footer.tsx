@@ -40,10 +40,7 @@ function FooterContent() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-start md:col-span-2">
-            <Link
-              href="/"
-              className="flex items-center gap-3 select-none -ml-11 sm:ml-20"
-            >
+            <Link href="/" className="flex items-center gap-3 select-none ">
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
                 alt="NovaCura Global Logo"
@@ -133,6 +130,16 @@ function FooterContent() {
                       </a>
                     </div>
                   ) : isDetoxHospitalPage ? (
+                    <div className="flex gap-2">
+                      <Phone className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                      <a
+                        href="tel:+447776186116"
+                        className="text-sm text-foreground/80 hover:text-primary transition-colors"
+                      >
+                        +44 7779 729669
+                      </a>
+                    </div>
+                  ) : isHospitalPage ? (
                     <div className="flex gap-2">
                       <Phone className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                       <div className="flex flex-col">
