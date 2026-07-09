@@ -4,7 +4,7 @@ import Footer from '@/components/landing/footer';
 
 export default function MissionPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans ">
             <Header />
             <main className="flex-1">
                 {/* Hero Section */}

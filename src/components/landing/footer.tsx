@@ -37,15 +37,18 @@ function FooterContent() {
 
   return (
     <footer className="bg-white border-t">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="container mx-auto px-4 sm:px-6  py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-start md:col-span-2">
-            <Link href="/" className="flex items-center gap-3 select-none ">
+            <Link href="/" className="flex items-center gap-3 select-none -ml-10 ">
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
                 alt="NovaCura Global Logo"
-                className="h-20 w-48 object-contain "
+                className="h-20 w-48 object-contain"
               />
+               <p className="hidden md:block text-[22px] sm:text-[18px] font-bold text-[#42AED2] -ml-16 tracking-wide ">
+                NOVACURA GLOBAL
+              </p>
             </Link>
             <p className="mt-4 text-foreground/70 max-w-sm">
               Your premier partner in global health and wellness, providing

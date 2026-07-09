@@ -6,7 +6,7 @@ import { ShieldCheck, Users, Globe, Smartphone, HeartHandshake, Banknote } from 
 const reasons = [
     {
         icon: ShieldCheck,
-        title: 'Access to top Indian hospitals',
+        title: 'Access to top hospitals across India, Turkey and Bulgaria',
         description: 'We partner with JCI-accredited hospitals and world-renowned specialists.',
     },
     {
@@ -38,7 +38,7 @@ const reasons = [
 
 export default function WhyNovacuraGlobalPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans mt-10">
             <Header />
             <main className="flex-1">
                 {/* Hero Section */}

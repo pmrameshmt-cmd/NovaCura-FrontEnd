@@ -12,7 +12,7 @@ const steps = [
     {
         icon: UserPlus,
         title: 'Connect with expert doctors',
-        description: 'We match you with top specialists in India.',
+        description: 'We match you with top specialists in India, Turkey and Bulgaria.',
     },
     {
         icon: FileText,
@@ -38,7 +38,7 @@ const steps = [
 
 export default function HowItWorksPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans mt-10">
             <Header />
             <main className="flex-1">
                 {/* Hero Section */}

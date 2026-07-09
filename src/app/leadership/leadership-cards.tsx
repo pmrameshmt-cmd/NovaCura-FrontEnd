@@ -16,14 +16,14 @@ const leaders: Leader[] = [
   {
     name: "Sethu Vaidyanathan",
     title: "Co Founder",
-    bio: "Sethu Vaidyanathan is a serial entrepreneur, investor, philanthropist, and third-generation business leader with decades of experience in the corporate world \n Throughout his career, he has invested in and funded numerous successful start-ups across India and international markets, helping entrepreneurs transform innovative ideas into scalable businesses He serves as a Mentor at \"Zone by The Park\", a hospitality brand of the [Apeejay Surrendra Group] and is an advisor and board member to more than 20 companies \n spanning multiple industries.With his family maintaining a business presence in the United Kingdom for over six decades, Sethu brings a unique global perspective to entrepreneurship, strategic investments, and business growth Beyond business, Sethu is deeply committed to philanthropy \n He actively supports initiatives focused on human rights, animal welfare, climate action, and serves as a patron of arts and sports. His dedication to creating meaningful social impact is as significant  as his entrepreneurial achievements \n An accomplished author of four books, Sethu is also an avid art collector with a passion for culture, creativity, and global travel.He divides his time between London, New York, and Delhi, and enjoys travelling with his wife, Priya, and their son, Vir.",
+    bio: "Sethu Vaidyanathan is a serial entrepreneur, investor, philanthropist, and third-generation business leader with decades of experience in the corporate world. \n Throughout his career, he has invested in and funded numerous successful start-ups across India and international markets, helping entrepreneurs transform innovative ideas into scalable businesses. He serves as a Mentor at \"Zone by The Park\", a hospitality brand of the [Apeejay Surrendra Group] and is an advisor and board member to more than 20 companies spanning multiple industries.With his family maintaining a business presence in the United Kingdom for over six decades, Sethu brings a unique global perspective to entrepreneurship, strategic investments and business growth. \n Beyond business, Sethu is deeply committed to philanthropy.He actively supports initiatives focused on human rights, animal welfare, climate change and serves as a patron of arts and sports. His dedication to creating meaningful social impact is as significant  as his entrepreneurial achievements. \n An accomplished author of four books, Sethu is also an avid art collector with a passion for culture, creativity and global travel.He divides his time between London, New York, and Delhi, and enjoys travelling with his wife, Priya, and their son, Vir. \n As a Co-Founder, Sethu has played a pivotal role in shaping Nova Cura Global's growth trajectory, including spearheading the expansion of innovative service offerings such as Ayurvedic, Wellness and Detox programmes. \n Sethu is currently focused on accelerating Nova Cura Global's core business growth and expansion across Europe, North America, GCC, Indonesia and Down Under, Oz.",
     image: "/images/Sethu.png",
     mobileImage: "/images/Sethu-mb.png",
   },
   {
     name: "Ramesh Mahalingam",
-    title: "Founder & CTO",
-    bio: `Ramesh Mahalingam is the Co-Founder and Chief Technology Officer of Nova Cura Global, where he leads the company's product vision, technology strategy, and engineering excellence \n A lifelong technologist and innovator, Ramesh has been the driving force behind building a platform trusted and used by millions of users across the globe. Ramesh has cultivated a high-performing team of creative problem-solvers dedicated to tackling some of the most complex challenges in the medical tourism industry. As a Co-Founder, Ramesh has played a pivotal role in shaping Nova Cura Global's growth trajectory, including spearheading the expansion of innovative service offerings such as Ayurvedic, Wellness and Detox programmes \n Alongside co-founders Sethu and Hardy, he has been instrumental in transforming a bold vision into a globally recognised platform that leverages technology to improve access to medical tourism and enhance patient outcomes \n Ramesh is currently focused on accelerating Nova Cura Global's core business growth and expansion across the United Kingdom, bringing world-class healthcare experiences within reach for more people than ever before.`,
+    title: "Founder",
+    bio: `Ramesh Mahalingam is the Founder and Chief Technology Officer of Nova Cura Global, where he leads the company's product vision, technology strategy and engineering excellence. \n A lifelong technologist and innovator, Ramesh has been the driving force behind building a platform trusted and used by millions of users across the globe. Ramesh has cultivated a high-performing team of creative problem-solvers dedicated to tackling some of the most complex challenges in the medical tourism industry. \n Alongside co-founders Sethu and Hardy, and Vijaybabu he has been instrumental in transforming a bold vision into a globally recognised platform that leverages technology to improve access to medical tourism and enhance patient outcomes.`,
     image: "/images/Rameshleader.jpeg",
     mobileImage: "/images/Rameshleader-mb.jpeg",
   },
@@ -31,14 +31,14 @@ const leaders: Leader[] = [
   {
     name: "Hardy Gakhal",
     title: "Co-Founder",
-    bio: `Hardy Gakhal, Co-Founder, is a distinguished professional in the plastics industry, recognised for his innovative contributions to developing NIR-detectable products, enhancing sustainability and efficiency. As the owner of Varna Investments, he also brings a wealth of expertise in global financing, making significant impacts across both fields. His multifaceted experience positions him as a leading figure in driving industry advancements and sustainable solutions.`,
+    bio: `Hardy Gakhal, Co-Founder, is a distinguished professional in the plastics industry, recognised for his innovative contributions to developing NIR-detectable products, enhancing sustainability and efficiency.\n As the owner of Varna Investments, he also brings a wealth of expertise in global financing, making significant impacts across both fields. His multifaceted experience positions him as a leading figure in driving industry advancements and sustainable solutions.\n As a Co-Founder, Hardy has played a key role in shaping Nova Cura Global's partnerships with the leading medical institutions in Turkey and Bulgaria. Also business tie ups with Academic Medical Centres in Bulgaria and Italy.`,
     image: "/images/Hardyleader.jpeg",
     mobileImage: "/images/Hardyleader-mb.jpeg",
   },
   {
     name: "Dr. Vijaybabu Kaliappan",
     title: "COO",
-    bio: `Dr. Vijaybabu Kaliappan MBBS MD, COO, Professor of Medicine — 21 years of medical academics, presently Dean of Research in Zydus Foundation. Developed drugs for covid, anaemia, now working on sickle cell disease eradication at PM Narendra Modi's Visionary programme. Developed cough sound based diagnostics for various viral lung diseases including covid for Australian corporate.`,
+    bio: `Dr. Vijaybabu Kaliappan MBBS MD,Chief Operating Officer is a Professor of Medicine 21 years of medical academics, presently Dean of Research in Zydus Foundation.\n Developed drugs for covid, anaemia, now working on sickle cell disease eradication at PM Narendra Modi's Visionary programme. Developed cough sound based diagnostics for various viral lung diseases including covid for Australian corporate.\n As a Chief Operating Officer, Vijaybabu overlooks Nova Cura Global’s India operations covering our healthcare clients treatment, Pre and Post care around their treatments, wellness and detox programmes. With his vast experience in academics he helped Nova Cura Global to create a wide network of Medico, Clinician, Physician and Specialist not only in India but across our operating regions.`,
     image: "/images/Vijayleader.jpeg",
     mobileImage: "/images/Vijayleader-mb.jpeg",
   },
@@ -133,7 +133,7 @@ const LeadersPage = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 12 }}
                     transition={{ duration: 0.35, delay: 0.08 }}
-                    className="absolute inset-0 flex flex-col justify-end p-6 md:p-10 select-none overflow-y-auto"
+                    className="absolute inset-0 flex flex-col justify-end p-6 md:p-10 select-none overflow-y-auto bg-black/40"
                   >
                     <div className="mt-auto">
                       <motion.p
@@ -163,7 +163,7 @@ const LeadersPage = () => {
                         {leader.bio.split("\n").map((paragraph, idx) => (
                           <p
                             key={idx}
-                            className="text-gray-200 text-sm md:text-base leading-7"
+                            className="text-gray-200 text-[11px] md:text-sm leading-4"
                           >
                             {paragraph}
                           </p>

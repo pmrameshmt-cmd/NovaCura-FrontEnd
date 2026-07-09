@@ -8,7 +8,7 @@ import LeadershipCards from './leadership-cards';
 
 export default function LeadershipPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans ">
             <Header />
             <main className="pt-10 md:pt-15">
                 {/* Hero Section */}
@@ -18,7 +18,7 @@ export default function LeadershipPage() {
                             Leadership at NOVACURA GLOBAL
                         </h1>
                         <p className="text-lg md:text-xl max-w-4xl leading-relaxed">
-                            NOVACURA GLOBAL is a healthcare concierge platform driven by compassion and excellence. Powered by experienced medical professionals and dedicated support teams, we are committed to making world-class healthcare accessible, seamless, and Personalised for international patients seeking treatment in India.
+                            NOVACURA GLOBAL is a healthcare concierge platform driven by compassion and excellence. Powered by experienced medical professionals and dedicated support teams, we are committed to making world-class healthcare accessible, seamless, and Personalised for international patients seeking treatment in India, Turkey and Bulgaria.
                         </p>
                     </div>
                 </section>

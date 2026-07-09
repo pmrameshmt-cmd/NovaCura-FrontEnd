@@ -16,14 +16,14 @@ import Testimonials from '@/components/landing/testimonials';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-[100dvh] bg-background">
+    <div className="flex flex-col min-h-[100dvh] bg-background ">
       <Header />
-      <main className="flex-1 py-16 md:py-0">
+      <main className="flex-1 py-30 md:py-0 ">
         <Hero />
         <Services />
+        <Hospitals />
         <AyurvedicNew />
         <Detox />
-        <Hospitals />
         {/* <AyurvedicHospitals /> */}
         <About />
         <Stats />

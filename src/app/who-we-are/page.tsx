@@ -4,7 +4,7 @@ import Footer from '@/components/landing/footer';
 
 export default function WhoWeArePage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans mt-10">
             <Header />
             <main className="flex-1">
                 {/* Hero Section */}
@@ -24,6 +24,9 @@ export default function WhoWeArePage() {
                         <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
                             We believe quality healthcare should have no borders. Our team works hard to connect patients with the best medical care available in India, Turkey and Bulgaria.
                         </p>
+                    </div>
+                    <div className="text-xl  text-center font-serif   text-muted-foreground mt-20 text-primary">
+                        “We become your healthcare partner before, during, and long after your treatment.”
                     </div>
                 </section>
             </main>

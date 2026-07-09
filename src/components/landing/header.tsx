@@ -222,13 +222,16 @@ export default function Header() {
           >
             <Link
               href="/"
-              className="flex items-center gap-3 select-none ml-0 lg:-ml-11"
+              className="flex items-center  select-none -ml-10"
             >
               <img
                 src="/images/Nova%20Cura%20Global%20Logo.png"
                 alt="NovaCura Global Logo"
-                className="h-16 w-40 object-contain transition-all duration-[300ms]"
+                className="h-16 w-40 object-contain transition-all duration-[300ms] "
               />
+              <p className="text-[10px] sm:text-[18px] font-bold text-[#42AED2] -ml-8 tracking-wide ">
+                NOVACURA GLOBAL
+              </p>
             </Link>
 
             <div className="flex items-center gap-1 sm:gap-3">

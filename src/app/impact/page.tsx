@@ -12,7 +12,7 @@ const stats = [
     {
         icon: Hospital,
         value: '50+', // Example value, prompt said "Partner hospitals across India"
-        label: 'Partner hospitals across India',
+        label: 'Partner hospitals across India, Turkey and Bulgaria',
     },
     {
         icon: Smile,
@@ -28,7 +28,7 @@ const stats = [
 
 export default function ImpactPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-background font-open-sans">
+        <div className="flex flex-col min-h-screen bg-background font-open-sans mt-10">
             <Header />
             <main className="flex-1">
                 {/* Hero Section */}
